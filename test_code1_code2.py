@@ -47,7 +47,7 @@ print(result.to_string())
 
 # Comment out the next line (result.exit(dbutils)) to see the test result report from within the notebook
 
-# push to br2
+# check staging is updated from databricks
 
 is_job = dbutils.notebook.entry_point.getDbutils().notebook().getContext().currentRunId().isDefined()
 if is_job:
